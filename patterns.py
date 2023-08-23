@@ -21,9 +21,15 @@ n = int(input())
 #         print("*", end="")
 #     print(end="\n")
 # star_pattern_four
-for i in range(n,0,-1):
-    for j in range(0, n-i):
-        print(" ", end="")
-    for k in range(1, i*2):
-        print("*", end="")
-    print(end="\n")
+# for i in range(n,0,-1):
+#     for j in range(0, n-i):
+#         print(" ", end="")
+#     for k in range(1, i*2):
+#         print("*", end="")
+#     print(end="\n")
+# star_pattern_five
+for i in range(1,n+1):
+    number_pattern=""
+    for j in range(1,i+1):
+     number_pattern= str(1 if j%2!=0 else 0) + number_pattern
+    print(number_pattern)
