@@ -27,7 +27,7 @@ n = int(input())
 #     for k in range(1, i*2):
 #         print("*", end="")
 #     print(end="\n")
-# star_pattern_five
+    # star_pattern_five
 for i in range(1,n+1):
     number_pattern=""
     for j in range(1,i+1):
